@@ -30,6 +30,10 @@ body {
 .main-adress {
     font-style: normal;
 }
+
+.beggining {
+    background-color: #2e2f42;
+}
 /**----------------SIMILAR-----------------**/
 
 .header-contacts-link {
