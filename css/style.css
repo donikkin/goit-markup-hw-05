@@ -83,16 +83,8 @@ body {
 }
 
 
-
-.header-logo span {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--main-subtitle-color);
-    text-decoration: none;
+.logo-word {
+    color: #2e2f42;
 }
 
 .header-navigation-link {
@@ -153,6 +145,9 @@ body {
     color: var(--main-subtitle-color);
 }
 
+.port-adress {
+    font-style: normal
+}
 
 .portfolio-navigation {
     font-weight: 500;
@@ -195,15 +190,10 @@ body {
     text-decoration: none;
 }
 
-.footer-logo-span{
-    font-family: 'Raleway', sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #F4F4FD;
+.footer-logo-span {
+    color: #f4f4fd;
 }
+
 .footer-text {
     font-size: 16px;
     line-height: 1.5;
