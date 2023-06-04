@@ -5,6 +5,7 @@
     --cloud: #F4F4FD;
     --ocean: #404BBF;
     --iris: #4D5AE5;
+    --cornflower: #E7E9FC;
 
 }
 
@@ -12,6 +13,19 @@ body {
     font-family: 'Roboto', sans-serif;
     color: var(--slate);
     background-color: var(--white);
+}
+
+img {
+    display: block;
+}
+
+.container {
+    width: 100%;
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    /* outline: 1px solid red; */
 }
 
 .list {
@@ -23,37 +37,43 @@ body {
     text-decoration: none;
 }
 
-.main-title {
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 1.07;
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: var(--white);
+
+
+/**-------------------HEADER-------------------**/
+
+.header {
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
-.main-adress {
-    font-style: normal;
+.header-navigation {
+    display: flex;
+    align-items: center;
+    /* flex-grow: 1; */
 }
 
-.beggining {
-    background-color: var(--navy-blue);
+.header-container {
+    display: flex;
 }
 
-.main-team {
-    background-color: var(--cloud);
+.header-wrapper {}
+
+.header-navigation-list {
+    display: flex;
+    margin-left: 76px;
+    gap: 40px;
+    padding: 24px 0;
 }
 
-.team-img {
-    background-color: var(--white);
+.header-contacts-wrap {
+    display: flex;
+    /* margin-left: 332px;
+    align-items: center; */
+    margin-left: 332px;
+    align-items: center;
+    gap: 40px;
+    padding: 24px 0;
 }
-
-.main-team-text {
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
-
-/**----------------SIMILAR-----------------**/
 
 .header-contacts-link {
     font-size: 16px;
@@ -85,6 +105,7 @@ body {
     text-transform: uppercase;
     color: var(--iris);
     text-decoration: none;
+    margin-left: auto;
 }
 
 
@@ -108,8 +129,29 @@ body {
 
 /**-----------------MAIN---------------------**/
 
+.main-title-container {
+    max-width: 1470px;
+    background-color: var(--navy-blue);
+    padding: 188px 472px 292px 472px;
+}
+
+.main-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--white);
+    min-width: 496px;
+}
+
+.main-adress {
+    font-style: normal;
+}
 
 .main-button {
+    min-width: 169px;
+    height: 56px;
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
@@ -118,11 +160,21 @@ body {
     color: var(--white);
     background-color: var(--iris);
     cursor: pointer;
+    background: #4D5AE5;
+    border: none;
+    border-radius: 4px;
+    margin-top: 48px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .main-button:hover,
 .main-button:focus {
     background-color: var(--ocean);
+}
+
+.beggining {
+    background-color: var(--navy-blue);
 }
 
 .main-benefits-title {
@@ -131,12 +183,24 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--navy-blue);
+    margin-bottom: 8px;
 }
 
 .main-paragraph-benefits {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+
+.main-benefits {
+    padding-top: 120px;
+    padding-bottom: 60px;
+    display: flex;
+    gap: 24px;
+}
+
+.benefits-item {
+    width: calc((100% - 24px * 3) / 4);
 }
 
 .main-section-name {
@@ -147,7 +211,60 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--navy-blue);
+    padding-top: 60px;
+    /* max-width: 323px;
+    margin: 0 auto; */
 }
+
+.doing-container {
+    display: flex;
+}
+
+.doing-wrap {
+    display: flex;
+    padding-top: 72px;
+    gap: 24px;
+    width: calc((100% - 48px) / 3);
+    padding-bottom: 120px;
+}
+
+.team-container {
+    display: flex;
+
+}
+
+.team-wrap {
+    display: flex;
+    gap: 24px;
+    width: calc((100% - 72px) / 4);
+}
+
+.main-team {
+    background-color: var(--cloud);
+}
+
+.main-team-name {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--navy-blue);
+    padding-top: 120px;
+    padding-bottom: 72px;
+}
+
+.team-img {
+    background-color: var(--white);
+}
+
+.main-team-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/**---------------------PORTFOLIO-------------------**/
 
 .port-adress {
     font-style: normal
@@ -186,12 +303,17 @@ body {
     color: var(--slate)
 }
 
-
+/**-------------------FOOTER-------------------**/
 
 .footer {
     background-color: var(--navy-blue);
 }
 
+.footer-container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    max-width: 264px;
+}
 
 .footer-logo {
     font-family: 'Raleway', sans-serif;
