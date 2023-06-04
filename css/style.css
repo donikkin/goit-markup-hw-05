@@ -54,9 +54,12 @@ img {
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-    /* outline: 2px solid red; */
 }
 
+
+.visually-hidden {
+    
+}
 
 /**-------------------HEADER-------------------**/
 .header {
@@ -71,8 +74,8 @@ img {
 .header-container {
     display: flex;
     align-content: center;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    /* padding-top: 24px;
+    padding-bottom: 24px; */
 }
 
 
@@ -143,8 +146,8 @@ img {
 
 .title-container {
     max-width: 1470px;
-    padding-top: 188px;
-    padding-bottom: 188px;
+    /* padding-top: 188px;
+    padding-bottom: 188px; */
 }
 
 .main-title {
@@ -191,7 +194,7 @@ img {
 }
 
 .benefits-container {
-    padding-top: 120px;
+    /* padding-top: 120px; */
 }
 
 .main-benefits {
@@ -241,8 +244,8 @@ img {
 }
 
 .doing-section {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    /* padding-top: 120px;
+    padding-bottom: 120px; */
 }
 
 .doing-wrap {
@@ -262,7 +265,7 @@ img {
 
 .main-team {
     background-color: var(--cloud);
-    padding-bottom: 120px;
+    /* padding-bottom: 120px; */
 }
 
 .main-team-name {
@@ -273,7 +276,7 @@ img {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--navy-blue);
-    padding-top: 120px;
+    /* padding-top: 120px; */
     margin-bottom: 72px;
 }
 
@@ -385,7 +388,7 @@ img {
 }
 
 .footer-container {
-    padding: 100px 864px 100px 0;
+    /* padding: 100px 864px 100px 0; */
 }
 
 .footer-logo {
