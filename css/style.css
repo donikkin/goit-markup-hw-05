@@ -115,6 +115,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--navy-blue);
+    padding: 24px 0;
 }
 
 .header-logo {
@@ -352,7 +353,7 @@ img {
     justify-content: center;
     gap: 24px;
     /* padding-top: 96px; */
-    padding-bottom: 72px;
+    margin-bottom: 72px;
     /* padding-left: 271px; */
 }
 
@@ -395,7 +396,7 @@ img {
     letter-spacing: 0.02em;
     color: var(--navy-blue);
     padding-top: 32px;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 
 .port-text {
