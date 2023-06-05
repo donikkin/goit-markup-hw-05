@@ -51,8 +51,8 @@ img {
 
 .container {
     width: 1158px;
-    padding: 0 15px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 
@@ -80,7 +80,7 @@ img {
 .header-container {
     display: flex;
     align-content: center;
-    padding: 24px 0;
+    /* padding: 24px 0; */
     /* padding-top: 24px;
     padding-bottom: 24px; */
 }
@@ -89,12 +89,14 @@ img {
 .header-navigation-list {
     display: flex;
     gap: 40px;
+    padding: 24px 0;
 }
 
 .header-contacts-wrap {
     display: flex;
     gap: 40px;
     margin-left: 332px;
+    padding: 24px 0;
 }
 
 .header-contacts-link {
