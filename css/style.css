@@ -85,7 +85,7 @@ img {
 .header-navigation-list {
     display: flex;
     gap: 40px;
-    padding: 24px 0;
+    
 }
 
 .header-contacts-wrap {
@@ -101,6 +101,7 @@ img {
     letter-spacing: 0.02em;
     color: var(--slate);
     text-decoration: none;
+    padding: 24px 0;
 }
 
 .header-contacts-link:hover,
@@ -126,6 +127,7 @@ img {
     color: var(--iris);
     text-decoration: none;
     margin-right: 76px
+
 }
 
 
@@ -321,6 +323,11 @@ img {
 }
 
 /**---------------------PORTFOLIO-------------------**/
+.portfolio-select {
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+
 .port-adress {
     font-style: normal
 }
@@ -342,10 +349,11 @@ img {
 
 .port-btn-list {
     display: flex;
+    justify-content: center;
     gap: 24px;
-    padding-top: 96px;
+    /* padding-top: 96px; */
     padding-bottom: 72px;
-    padding-left: 271px;
+    /* padding-left: 271px; */
 }
 
 .portfolio-navigation-button:hover,
