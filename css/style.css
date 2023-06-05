@@ -88,6 +88,10 @@ img {
     
 }
 
+.header-navigation-link {
+    padding: 24px 0;
+}
+
 .header-contacts-wrap {
     display: flex;
     gap: 40px;
