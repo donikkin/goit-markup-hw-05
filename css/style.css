@@ -57,14 +57,7 @@ img {
 
 
 .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    overflow: hidden;
+    display: none;
 }
 
 /**-------------------HEADER-------------------**/
@@ -85,6 +78,9 @@ img {
     padding-bottom: 24px; */
 }
 
+.main-adress {
+    font-style: normal;
+}
 
 .header-navigation-list {
     display: flex;
@@ -172,9 +168,7 @@ img {
     margin-right: auto;
 }
 
-.main-adress {
-    font-style: normal;
-}
+
 
 .main-button {
     min-width: 169px;
@@ -201,11 +195,16 @@ img {
 
 .beggining {
     background-color: var(--navy-blue);
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
-.benefits-container {
+/* .benefits-container {
+    padding-top: 120px;
+} */
+
+.benefits-section {
     padding: 120px 0;
-    /* padding-top: 120px; */
 }
 
 .main-benefits {
@@ -234,7 +233,6 @@ img {
 
 .main-benefits {
     /* padding-top: 120px; */
-    padding-bottom: 60px;
     display: flex;
     gap: 24px;
 }
@@ -256,17 +254,20 @@ img {
 
 .doing-section {
     padding: 120px 0;
-    /* padding-top: 120px;
-    padding-bottom: 120px; */
 }
 
-.doing-wrap {
+/* .doing-wrap {
+    display: flex;
+    gap: 24px;
+} */
+
+.doing-wrapper {
     display: flex;
     gap: 24px;
 }
 
 .doing-item {
-    width: calc((100% - 72px) / 4);
+    width: 360px;
     border: 1px solid #E7E9FC;
 }
 
@@ -278,6 +279,7 @@ img {
 .main-team {
     background-color: var(--cloud);
     /* padding-bottom: 120px; */
+    padding: 120px 0;
 }
 
 .main-team-name {
@@ -297,6 +299,9 @@ img {
 }
 
 .team-img {
+    margin-top: 0;
+    margin-right: 0;
+    width: 264px;
     background-color: var(--white);
     border-radius: 0px 0px 4px 4px;
 }
@@ -397,12 +402,13 @@ img {
 
 .footer {
     background-color: var(--navy-blue);
+    padding: 100px 0;
 }
 
-.footer-container {
+/* .footer-container {
     padding: 100px 0;
-    /* padding: 100px 864px 100px 0; */
-}
+    padding: 100px 864px 100px 0;
+} */
 
 .footer-logo {
     font-family: 'Raleway', sans-serif;
@@ -426,4 +432,5 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--cloud);
+    max-width: 264px;
 }
