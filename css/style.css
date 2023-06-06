@@ -307,7 +307,7 @@ img {
     letter-spacing: 0.02em;
     color: var(--navy-blue);
     margin-bottom: 8px;
-    align-items: center;
+    text-align: center;
 }
 
 .main-team-name {
