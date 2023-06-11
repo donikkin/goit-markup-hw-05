@@ -453,7 +453,7 @@ img {
 .cust-link {
     width: 100%;
     height: 100%;
-    border: 1px solid #8e8f99;
+    border: 1px solid var(--light-slate);
     border-radius: 4px;
     display: flex;
     align-items: center;
@@ -466,16 +466,16 @@ img {
     color: var(--ocean);
 }
 
-.customers-box {
+/* .customers-box {
     width: 168px;
     height: 88px;
     background: var(--white);
-    border: 1px solid #8E8F99;
+    border: 1px solid var;
     border-radius: 4px;
     display: flex;
     align-items: center;
     justify-content: center;
-}
+} */
 
 .customers-box:hover, .customers-box:focus {
     border: 1px solid var(--ocean);
