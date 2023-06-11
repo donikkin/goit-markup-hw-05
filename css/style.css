@@ -7,7 +7,7 @@
     --iris: #4D5AE5;
     --cornflower: #E7E9FC;
     --green: #31D0AA;
-    --transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+    --transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 body {
@@ -74,6 +74,7 @@ img {
 /**-------------------HEADER-------------------**/
 .header {
     border-bottom: 1px solid var(--cornflower);
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-navigation {
@@ -99,11 +100,12 @@ img {
 .header-navigation-list {
     display: flex;
     gap: 40px;
-    
+    transition: color var(--transition);
 }
 
 .header-navigation-link {
     padding: 24px 0;
+    transition: color var(--transition);
 }
 
 .header-contacts-wrap {
@@ -134,6 +136,7 @@ img {
     letter-spacing: 0.02em;
     color: var(--navy-blue);
     padding: 24px 0;
+    color: var(--ocean);
 }
 
 .header-logo {
@@ -176,6 +179,7 @@ img {
     height: 4px;
     border-radius: 2px;
     background-color: var(--ocean);
+    bottom: -1px;
 }
 
 .header-navigation-link:hover,
@@ -195,6 +199,7 @@ img {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    max-width: 1440px;
 }
 
 .main-title {
@@ -225,6 +230,7 @@ img {
     border: none;
     margin-top: 48px;
     margin-left: 480px;
+    transition: background-color var(--transition);
 }
 
 .main-button:hover,
@@ -312,6 +318,10 @@ img {
 .doing-item {
     width: 360px;
     border: 1px solid #E7E9FC;
+}
+
+.team-container {
+    padding: 32px 0;
 }
 
 .team-wrap {
