@@ -415,6 +415,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
 }
 
 .team-link:hover, .team-link:focus {
@@ -446,8 +447,7 @@ img {
 .cust-item {
     width: calc((100% - 120px) / 6);
     height: 88px;
-    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-        color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .cust-link {
