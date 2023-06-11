@@ -374,8 +374,7 @@ img {
 }
 
 .team-svg {
-    /* fill: var(--cloud); */
-    fill: currentColor;
+    fill: var(--cloud);
 }
 
 .main-team-text {
@@ -664,16 +663,16 @@ img {
     justify-content: center;
 }
 
-.footer-svg {
-    fill: var(--cloud)
-}
-
 .footer-soc:hover,
 .footer-soc:focus {
     background-color: var(--green);
 }
 
-.footer-icons {
+.footer-svg {
+    fill: var(--cloud)
+}
+
+/* .footer-icons {
     width: 40px;
     height: 40px;
     background-color: var(--iris);
@@ -681,7 +680,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-}
+} */
 
 .footer-icons:hover, .footer-icons:focus {
     background-color: var(--green);
