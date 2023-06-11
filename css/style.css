@@ -703,10 +703,10 @@ img {
     fill: var(--cloud)
 }
 
-/* .footer-soc:hover,
+.footer-soc:hover,
 .footer-soc:focus {
     background-color: var(--green);
-} */
+}
 
 .footer-icons {
     width: 40px;
