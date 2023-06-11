@@ -363,9 +363,9 @@ img {
     margin-bottom: 72px;
 }
 
-.team-container-names {
+/* .team-container-names {
     padding: 32px 16px 8px;
-}
+} */
 
 .team-img {
     margin-top: 0;
@@ -398,12 +398,13 @@ img {
     display: flex;
     justify-content: center;
     gap: 24px;
-    margin-bottom: 32px;
+    margin-top: 8px;
 }
 
 .team-soc-media {
     width: 40px;
     height: 40px;
+    margin-top: 8px;
 }
 
 .team-link {
