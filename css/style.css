@@ -751,6 +751,10 @@ img {
     cursor: pointer;
 }
 
+.subscribe-btn:hover, .subscribe-btn:focus {
+    background-color: var(--ocean);
+}
+
 .subscribe-icon {
     fill: var(--white);
     margin-left: 16px;
