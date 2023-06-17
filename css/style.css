@@ -960,7 +960,7 @@ img {
 .input-terms:checked+.terms-text span {
     background-color: var(--ocean);
     border: none;
-    fill: var(--white);
+    fill: var(--cloud);
 }
 
 .input-terms:focus+.terms-text span {
