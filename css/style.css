@@ -697,7 +697,8 @@ img {
 
 .footer-subscribe {
     display: flex;
-    margin-left: 80px;
+    margin-left: 56px;
+    gap: 24px;
 }
 
 .subscribe {
