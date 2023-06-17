@@ -731,8 +731,8 @@ img {
     padding-left: 16px;
     background-color: transparent;
     font-size: 12px;
-    line-height: 2;
     letter-spacing: 0.04em;
+    line-height: 1.5;
     color: var(--white);
 }
 
@@ -752,6 +752,7 @@ img {
     display: flex;
     align-items: center;
     text-align: center;
+    justify-content: center;
     letter-spacing: 0.04em;
     color: var(--white);
     margin-left: 24px;
