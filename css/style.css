@@ -686,6 +686,10 @@ img {
     background-color: var(--green);
 }
 
+/* .soc-media-container {
+    margin-right: 80px;
+} */
+
 .soc-footer-text {
     font-weight: 500;
     font-size: 16px;
@@ -697,7 +701,7 @@ img {
 
 .footer-subscribe {
     display: flex;
-    margin-left: 80px;
+    /* margin-left: 80px; */
     gap: 24px;
 }
 
@@ -713,7 +717,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--white);
-    margin-left: 80px;
+    /* margin-left: 80px; */
 }
 
 .sub-label {
@@ -740,6 +744,10 @@ img {
     color: var(--white);
 }
 
+.subscribe-box {
+    margin-left: 80px;
+}
+
 .subscribe-btn {
     font-family: "Roboto", sans-serif;
     min-width: 165px;
@@ -755,7 +763,7 @@ img {
     justify-content: center;
     letter-spacing: 0.04em;
     color: var(--white);
-    margin-left: 24px;
+    /* margin-left: 24px; */
     border: none;
     padding: 8px 24px;
     cursor: pointer;
@@ -852,7 +860,7 @@ img {
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: var(--light-slate);
-    margin-bottom: 4px;
+    margin-bottom: 8px;
 }
 
 .modal-input {
@@ -860,7 +868,6 @@ img {
     height: 40px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
-    margin-top: 4px;
     padding-left: 38px;
     background-color: transparent;
     outline: transparent;
@@ -987,8 +994,8 @@ img {
     padding: 16px 66px;
     cursor: pointer;
     margin: 0 auto;
-    margin-bottom: 24px;
-    margin-top: 24px;
+    /* margin-bottom: 24px;
+    margin-top: 24px; */
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
